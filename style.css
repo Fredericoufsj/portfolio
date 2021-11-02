@@ -12,6 +12,22 @@
         --font-secundary: "Josefin Slab", serif;
         --font-action: "Mulish", serif;
     }
+    /*Personalizar a barra de scroll*/
+    
+    body::-webkit-scrollbar {
+        width: 1.5rem;
+    }
+    /*Personalizar o fundo da barra de scroll*/
+    
+     ::-webkit-scrollbar-track {
+        background-color: #cac531;
+    }
+    /*Alça da barra de scroll*/
+    
+     ::-webkit-scrollbar-thumb {
+        background: #161b1a;
+        border-radius: .5rem;
+    }
     
     .hamburguer {
         width: 2rem;
